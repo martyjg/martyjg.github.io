@@ -1,5 +1,10 @@
 $(function() {
 
+  // $(window).resize(function() {
+  //   var portfolioWidth = $('.portfolio-overview').width();
+  //   $('.portfolio-overview').css({'height' : portfolioWidth +'px'});
+  // });
+
   $(".about-me-line").hide();
 
   $(".line-1").fadeIn(600);
@@ -14,3 +19,8 @@ $(function() {
 
 })
 
+
+// $(window).resize(function() {
+//   var portfolioWidth = $('.portfolio-overview').width();
+//   $('.portfolio-overview').css({'height' : portfolioWidth +'px'});
+// });

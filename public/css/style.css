@@ -25,6 +25,8 @@ h3 span {
 }
 
 .portfolio-overview {
-  margin-right: 48px;
+  /*width: 616px;*/
+  height: 616px;
+  margin: 0 48px 0 0;
   background-color: cyan;
 }
