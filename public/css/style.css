@@ -6,7 +6,25 @@
   margin: 48px;
 }
 
+.about-me-line {
+  margin-right: 48px;
+}
+
+h3 span {
+  text-decoration: underline;
+}
+
+.about-me-section h3 {
+  margin-top: 0;
+}
+
 .contact-section {
   box-sizing: border-box;
   border: 1px solid #FE621D;
+  font-size: 1.17em;
+}
+
+.portfolio-overview {
+  margin-right: 48px;
+  background-color: cyan;
 }
