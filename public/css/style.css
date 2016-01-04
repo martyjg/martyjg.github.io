@@ -20,13 +20,48 @@ h3 span {
 
 .contact-section {
   box-sizing: border-box;
-  border: 1px solid #FE621D;
   font-size: 1.17em;
 }
 
+.contact-display {
+  border: 1px solid #FE621D;
+}
+
 .portfolio-overview {
-  /*width: 616px;*/
+  box-sizing: border-box;
+  width: 616px;
   height: 616px;
   margin: 0 48px 0 0;
-  background-color: cyan;
+  border: 1px solid cyan;
+}
+
+.portfolio-item {
+  text-align: center;
+  float: left;
+  width: 307px;
+  height: 307px;
+}
+
+.myspace-overview img {
+  width: 100px;
+  height: 100px;
+}
+
+.viberate-overview img {
+  width: 100px;
+  height: 100px;
+}
+
+.screencapp-overview img {
+  width: 110px;
+  height: 110px;
+}
+
+.lemonadestand-overview img {
+  width: 100px;
+  height: 100px;
+}
+
+.portfolio-item:hover {
+  background-color: #616163;
 }
