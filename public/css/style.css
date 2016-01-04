@@ -51,7 +51,7 @@ h3 span {
   padding: 0 10px;
 }
 
-.portfolio-overview, .myspace-display, .viberate-display {
+.portfolio-overview, .myspace-display, .viberate-display, .screencapp-display {
   box-sizing: border-box;
   max-width: 680px;
   min-height: 680px;
@@ -82,7 +82,7 @@ h3 span {
   height: 100px;
 }
 
-.screencapp-overview img {
+.screencapp-img {
   width: 110px;
   height: 110px;
 }
@@ -102,18 +102,11 @@ h3 span {
   margin-left: 0;
 }
 
-.myspace-display > * {
+.project-display > * {
   text-align: center;
-}
-.myspace-display > * > * {
-  padding: 0;
-  margin: 20px;
 }
 
-.viberate-display > * {
-  text-align: center;
-}
-.viberate-display > * > * {
+.project-display > * > * {
   padding: 0;
   margin: 20px;
 }
