@@ -6,6 +6,7 @@ $(function() {
   // });
 
   $(".about-me-line").hide();
+  $(".portfolio-overview").hide();
 
   $(".line-1").fadeIn(600);
 
@@ -15,6 +16,10 @@ $(function() {
     clickedNumber = parseInt(clickedNumber);
     clickedNumber++;
     $(".line-" + clickedNumber).fadeIn(600);
+  })
+
+  $(".open-portfolio").on("click", function() {
+    $(".portfolio-overview").fadeIn(600);
   })
 
 })
