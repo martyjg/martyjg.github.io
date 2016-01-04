@@ -30,16 +30,16 @@ h3 span {
 .portfolio-overview {
   box-sizing: border-box;
   width: 616px;
-  height: 616px;
+  min-height: 616px;
   margin: 0 48px 0 0;
   border: 1px solid cyan;
 }
 
 .portfolio-item {
   text-align: center;
-  float: left;
-  width: 307px;
-  height: 307px;
+  /*float: left;*/
+  /*width: 307px;*/
+  min-height: 307px;
 }
 
 .myspace-overview img {
