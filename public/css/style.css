@@ -6,6 +6,14 @@
   margin: 48px;
 }
 
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
 li {
   list-style-type: none;
   text-decoration: none;
@@ -51,12 +59,16 @@ h3 span {
   padding: 0 10px;
 }
 
-.portfolio-overview, .myspace-display, .viberate-display, .screencapp-display {
+.portfolio-overview, .project-display {
   box-sizing: border-box;
   max-width: 680px;
   min-height: 680px;
   margin: 0 auto;
   border: 1px solid cyan;
+}
+
+.project-title {
+  font-size: 1.17em;
 }
 
 .portfolio-item {
@@ -78,8 +90,8 @@ h3 span {
 }
 
 .viberate-img {
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
 }
 
 .screencapp-img {
@@ -87,13 +99,13 @@ h3 span {
   height: 110px;
 }
 
-.lemonadestand-overview img {
+.lemonadestand-img {
   width: 100px;
   height: 100px;
 }
 
 .portfolio-item:hover {
-  background-color: #616163;
+  background-color: #FE621D;
 }
 
 #screenshot {
@@ -111,12 +123,23 @@ h3 span {
   margin: 20px;
 }
 
-.app-links > * {
-  padding: 10px;
-  margin-bottom: 20px;
+.app-links > li:first-child {
+  margin-bottom: 30px;
+}
+
+.app-links > * > * { 
+  padding: 10px; 
   border: 1px solid cyan;
+}
+
+.app-links > * > *:hover { 
+  background-color: #FE621D
 }
 
 .back-button {
   text-align: right;
+}
+
+.back-button:hover {
+  background-color: #FE621D
 }

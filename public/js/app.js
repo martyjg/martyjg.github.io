@@ -9,6 +9,8 @@ $(".about-me-line").hide();
 $(".portfolio-overview").hide();
 $(".myspace-display").hide();
 $(".viberate-display").hide();
+$(".screencapp-display").hide();
+$(".lemonadestand-display").hide();
 
 $(".line-1").fadeIn(600);
 
