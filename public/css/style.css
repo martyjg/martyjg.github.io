@@ -24,11 +24,14 @@ li {
 }*/
 
 h3 span {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  border-bottom: 1px solid black;
 }
 
 h3 span:hover {
   background-color: #FE621D;
+  cursor: pointer;
+  cursor: hand;
 }
 
 .about-me-section h3 {
