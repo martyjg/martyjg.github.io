@@ -148,5 +148,9 @@ h3 span:hover {
 }
 
 .back-button:hover {
-  background-color: #FE621D
+  background-color: #FE621D;
+}
+
+.listed-skills {
+  margin: 10px 0 20px 0;
 }
