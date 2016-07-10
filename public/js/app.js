@@ -11,6 +11,7 @@ $(".myspace-display").hide();
 $(".viberate-display").hide();
 $(".screencapp-display").hide();
 $(".lemonadestand-display").hide();
+$(".dating-display").hide();
 
 $(".line-1").fadeIn(600);
 

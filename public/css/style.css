@@ -111,6 +111,11 @@ h3 span:hover {
   height: 100px;
 }
 
+.dating-img {
+  width: 100px;
+  height: 100px;
+}
+
 .portfolio-item:hover {
   background-color: #FE621D;
 }
