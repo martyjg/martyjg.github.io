@@ -25,6 +25,10 @@ $(".reveal").on("click", function() {
 
 $(".open-portfolio").on("click", function() {
   $(".myspace-display").hide();
+  $(".viberate-display").hide();
+  $(".screencapp-display").hide();
+  $(".lemonadestand-display").hide();
+  $(".dating-display").hide();
   $(".portfolio-overview").fadeIn(600);
 })
 
