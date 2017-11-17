@@ -25,13 +25,17 @@ li {
 margin-right: 48px;
 }*/
 
+h3 {
+    line-height: 1.5;
+}
+
 h3 span {
     /*text-decoration: underline;*/
     border-bottom: 1px solid black;
 }
 
 h3 span:hover {
-    background-color: #FE621D;
+    background-color: rgba(254, 98, 29, 0.64);;
     cursor: pointer;
     cursor: hand;
 }
@@ -40,32 +44,60 @@ h3 span:hover {
     margin-top: 0;
 }
 
+@media (min-width: 800px) {
+    .about-me-section {
+        float: left;
+        width: 70%;
+    }
+}
+
 .contact-section {
     box-sizing: border-box;
     font-size: 1.17em;
 }
 
+@media (min-width: 800px) {
+    .contact-section {
+        float: right;
+    }
+}
+
 .contact-display {
-    border: 1px solid #FE621D;
+    border: 1px solid rgba(254, 98, 29, 0.64);;
     text-align: center;
+    width: 170px;
 }
 
 .contact-display a {
     word-wrap: break-word;
 }
 
-.contact-display * {
-    margin: 10px 0;
+.contact-display > p {
+    margin-top: 0;
+    margin-bottom: 10px;
 }
+
+.contact-display > p:first-child {
+    margin-top: 10px;
+}
+
+
 
 .contact-logo img {
     width: 150px;
     height: 150px;
 }
 
+.contact-display .social-network-icons {
+    margin: 0;
+}
+
 .social-network-icons a {
     font-size: 35px;
-    padding: 0 10px;
+}
+
+.social-network-icons a:first-child {
+    padding-right: 10px;
 }
 
 .portfolio-overview, .project-display {
@@ -119,7 +151,7 @@ h3 span:hover {
 }
 
 .portfolio-item:hover {
-    background-color: #FE621D;
+    background-color: rgba(254, 98, 29, 0.64);;
 }
 
 #screenshot {
@@ -164,4 +196,9 @@ h3 span:hover {
 
 a.cv-link {
     text-decoration: none;
+}
+
+.inline-block {
+    margin-left: auto;
+    margin-right: auto;
 }
