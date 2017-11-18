@@ -35,9 +35,8 @@ h3 span {
 }
 
 h3 span:hover {
-    background-color: rgba(254, 98, 29, 0.64);;
+    background-color: rgba(254, 98, 29, 0.64);
     cursor: pointer;
-    cursor: hand;
 }
 
 .about-me-section h3 {
@@ -52,12 +51,14 @@ h3 span:hover {
 }
 
 .contact-section {
+    margin-top: 30px;
     box-sizing: border-box;
     font-size: 1.17em;
 }
 
 @media (min-width: 800px) {
     .contact-section {
+        margin-top: 0;
         float: right;
     }
 }
@@ -77,11 +78,19 @@ h3 span:hover {
     margin-bottom: 10px;
 }
 
+.contact-display > p > a {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.contact-display > p > a:hover {
+    background-color: rgba(254, 98, 29, 0.64);
+    cursor: pointer;
+}
+
 .contact-display > p:first-child {
     margin-top: 10px;
 }
-
-
 
 .contact-logo img {
     width: 150px;
@@ -94,6 +103,10 @@ h3 span:hover {
 
 .social-network-icons a {
     font-size: 35px;
+}
+
+.social-network-icons a i:hover {
+    background-color: rgba(254, 98, 29, 0.64);
 }
 
 .social-network-icons a:first-child {
